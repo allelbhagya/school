@@ -3,7 +3,7 @@ import platform
 import mysql.connector
 import datetime
 global z
-mydb = mysql.connector.connect(user='root', password='5April2002',
+mydb = mysql.connector.connect(user='root', password='password',
                               host='localhost',
                               database='air')
 mycursor = mydb.cursor()
